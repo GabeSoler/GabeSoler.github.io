@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CreaTherapy Web App</title>
+
+                <!-- bootstrap watch https://bootswatch.com/-->
+    <link rel="stylesheet" href="/static/css/bootstrap.min(solar).css"> 
+    <link rel="stylesheet" href="/static/css/style.css"> 
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap&text=DrGabrielSoler" rel="stylesheet">
+
+    
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/static/favicon/site.webmanifest">    
+
+
+</head> <!-- end of head-->
+
+<body class="bg-dark">
+                        <!--Navbar starts-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary border-bottom border-dark position-sticky" data-bs-theme="light" id="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand text-light" style="font-family:'Edu AU VIC WA NT Hand',verdana,san-serif;" href="/" id="nav-title">
+            Dr Gabriel Soler <span class="text-light" style="font-family:verdana,san-serif;">| Web Dev</span> </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- collapsable part of the Navegation Bar -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+             <ul class="navbar-nav me-auto mb-0 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
+              <li class="nav-item">
+                  <a class="nav-link link-orange link-orange-active" 
+                      href="/areas/">
+                              Projects</a></li>
+                <li class="nav-item">
+                    <a class="nav-link link-orange  " 
+                        href="/contact/about">
+                                About</a></li>
+                <li class="nav-item">
+                    <a class="nav-link link-orange  " 
+                        href="/contact/contact">
+                                Contact</a></li>
+            </ul><!-- End of links on left side of nvbar -->
+        </div> <!-- Closes collapsible parts of navbar -->
+    </div><!-- closes navbar container-->
+</nav><!-- end of navbar -->
+
+<!-- Main section -->
+
+<main style="min-height:86vh;">
+
+
+
+
+
+<ul class="nav nav-tabs col-12 col-md-10 mx-auto">
+
+
+    <li class="nav-item">
+      <a class="nav-link
+      
+        active
+        
+      "
+      href="/areas/creatherapy/">Creatherapy Web App</a>
+    </li>
+      
+    <li class="nav-item">
+      <a class="nav-link
+       
+      "
+      href="/areas/psychotherapy/">Gs Psychotherapy</a>
+    </li>
+      
+    <li class="nav-item">
+      <a class="nav-link
+       
+      "
+      href="/areas/creatheory/">Creatheory</a>
+    </li>
+      
+    <li class="nav-item">
+      <a class="nav-link
+       
+      "
+      href="/areas/ppm/">Ppm Web App</a>
+    </li>
+      
+      </ul>
+
+
+    
+
+<div class="card col-12 col-md-10 mx-auto mb-2">
+
+<h4 class="card-header display-3 text-primary">CreaTherapy Web App</h4>
+
+    
+    <div class="container-fluid col-4 mx-auto mt-2"     style-"max-height:10%;">
+    <img class="card-img-top rounded" src="/static/images/creatherapy.png" 
+    alt="{title}"
+    /> </div>
+    
+    <div class="card-body col-10 mx-auto">
+
+<div class="container ">
+<p>I started this app as a programming exercise and slowly merged it with some ideas I had been working with for a while, around making therapeutic profiles and proposing a new model to create/discover your therapeutic style.</p>
+<blockquote>
+<p>Visit <a href="https://crea-therapy.com/">CreaTherapy Web App</a></p>
+</blockquote>
+<p>The web app has Django, a Python web framework, as the back end. It has a server-side rendering, meaning it does most of the work on the server instead of your browser. It is a relatively old way of working on apps, but now it is getting a new life with the emergence of htmx. Currently, the site does not use htmx, but I aim to integrate it as I learn how to use it in a new project I started.</p>
+<p>One of the good things about the server side is that you do not need lots of cookies and files on the client, and it allows more fluent work from the back end to the front end.</p>
+<p>The site has a user system that I borrowed from a third-party app called django-allauth, which makes things easier to handle and adds two-factor and social authentication.</p>
+<p>This site meant many difficulties, as I made as I was learning. I learnt how to use HTML, which I did not know before, as well as CSS and Javascript.</p>
+<p>I used the Bootstrap framework for CSS, which was developed by the old Tweeter team and is now open source. It gives the site a modern look without needing to tweak all the details.  It is still challenging to use and get right, as you have many options to manage in the code.</p>
+<p>As I work on this project, I have become more fluent in the dialogue between database models, managers, and templates and in designing the user interface and experience. It is nice when I now approach a change and see myself moving between the layers almost without stopping to think.</p>
+<p>I am hosting the app in Heroku, using the CLI deployment and a staging environment to check that everything is in order. I have opted not to use the container approach, as it adds more overhead that is not necessary for a solo project.</p>
+<p>It has been a fun thing to develop and imagine solutions for my profession. Making forms in Django is relatively easy, but sometimes, arriving at precisely what you want can be challenging. For instance, the sliders for the test are not a default in the system. I have become more and more familiar with all the parts of the web development cycle, as I feel creative and engaged with the content and ideas I am putting forward.</p>
+<p>It has also been fun to integrate my artistic side, adding many colours not in the original palette and using my art to design the logo and the site's images.</p>
+<p>I also added animations with a library called Velocity.js, which helps me to achieve fast and easy-to-code transitions and animations for the site.</p>
+    
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</main>
+<footer class="p-2 m-2 mt-3">              
+
+<p>By Gabriel Soler</p>
+<p>Email: gabriel@crea-therapy.com</p>
+
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        </body>
+</html>

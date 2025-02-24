@@ -1,0 +1,62 @@
+@view-transition {
+    navigation: auto;
+  }
+
+.bg-card {
+    background-image: var(--bs-gradient);
+    background-color: lighter(primary);
+
+}
+
+.bg-card:hover {
+    background-image: var(--bs-gradient);
+
+}
+
+.bg-white-green {
+    background-color: rgb(243, 245, 246);
+}
+
+.bg-gray-green {
+    background-color: rgb(149, 183, 200);
+}
+
+.soft-burnt {
+    color: #e1d099; 
+}
+
+blockquote {
+    background-color:  #94b0b5;
+    border-left: 0.5rem solid #243a3c;
+    padding:0.5rem;
+    margin-left: 0%;
+}
+
+blockquote a {
+    color: #4f7f9d;
+}
+
+blockquote p {
+    color: #325154;
+    font-size: large;
+}
+
+.link-orange {
+    color: rgb(119, 92, 41);
+}
+
+.bg-orange {
+    color: rgb(119, 92, 41);
+}
+
+.link-orange:hover {
+    color: rgb(91, 70, 31);
+}
+.link-orange:active {
+    color: rgb(61, 47, 21);
+}
+
+.link-orange-active {
+    color: rgb(74, 56, 25);
+    font-weight: bold;
+}
